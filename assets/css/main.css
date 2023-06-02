@@ -1,0 +1,213 @@
+
+
+
+.sc-visual{
+    position: relative;
+    background: #bfd9f7;
+}
+.sc-visual .slide{}
+.sc-visual .slide a{}
+.sc-visual .slide img{
+    margin: 0 auto;
+}
+
+.sc-visual .control{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sc-visual .control .pagination{
+    display: flex;
+    gap: 13px;
+    margin-right: 24px;
+}
+.sc-visual .control .pagination span{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0.5;
+}
+.sc-visual .control .pagination .active{
+    opacity: 1;
+}
+
+.sc-visual .control .btn-autoplay{
+    width: 9px;
+    height: 14px;
+    padding: 10px;
+    background: url('../images/ic-play.png') no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+}
+.sc-visual .control .btn-nav{
+    width: 14px;
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    opacity: 0.4;
+}
+.sc-visual .control .btn-nav.prev{
+    background: url(../images/ic-left.png) no-repeat;
+    background-size: 10px;
+    background-position: center;
+}
+.sc-visual .control .btn-nav.next{
+    background: url(../images/ic-right.png) no-repeat;
+    background-size: 10px;
+    background-position: center;
+}
+
+
+
+.sc-quick{
+
+}
+
+
+.sc-quick .group-quick{
+    display: flex;
+    background: #3a8dfd;
+    width: 764px;
+    margin: 0 auto;
+    height: 76px;
+    border-radius: 60px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px #808080;
+    -moz-box-shadow: 0px 2px 10px #808080;
+    -webkit-box-shadow: 0px 2px 10px #808080;
+    position: relative;
+    z-index: 2;
+    margin-top: -38px;
+}
+.sc-quick .group-quick a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.sc-quick .group-quick .link-ather{
+    width: 170px;
+    background: #0082cd;
+    font-size: 20px;
+    line-height: 26px;
+}
+.sc-quick .group-quick .link-quick{
+    position: relative;
+    flex: 1;
+}
+.sc-quick .group-quick .link-quick+.link-quick::after{
+    width: 1px;
+    height: 16px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    content: ''; /* 인라인 */
+}
+.sc-quick .group-quick .link-nav{
+    width: 170px;
+    background: #fff url(../images/ic-arrow.png) no-repeat;
+    background-position: right 21px center;
+    color: #000;
+    padding:0 55px 0 27px;
+}
+.sc-quick .group-nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sc-quick .group-nav a{
+    font-size: 16px;
+    color: #7f7e7e;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.headline{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.list-inner{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.list-inner .headline{margin-bottom: 20px;}
+
+.sc-finance{width: 696px;background: #f00;}
+.sc-finance .finance-list{
+    display: flex;
+}
+.sc-finance .finance-list li{
+    width: 85px;
+    text-align: center;
+}
+.sc-finance .finance-list a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.sc-card{ width: 260px; background: #f00;}
+
+
+
+
+.sc-service{}
+.sc-service .service-list{
+    display: flex;
+    gap: 20px;
+}
+.sc-service .service-item{
+    flex: 1;
+}
+
+.sc-service .service-item a{
+    display: block;
+    border: 1px solid #d8d8d8;
+}
+.sc-service .service-item .img-box{}
+.sc-service .service-item .img-box img{
+    width: 100%;
+}
+
+.sc-service .service-item .text-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.sc-service .service-item .text-box .title{
+        color: #555;
+        font-weight: bold;
+        font-size: 19px;
+        margin-bottom: 10px;
+        display: block;
+}
+.sc-service .service-item .text-box .desc{
+font-size: 14px;
+color: #666;}
+
+
+
+
+.bd-inner{
+    background: #f4f7fa;
+}
